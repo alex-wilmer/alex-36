@@ -15,7 +15,7 @@ export const theme = {
 }
 
 function Line() {
-  return <img src={underline} />
+  return <img alt="underline" src={underline} />
 }
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
         <Flex sx={{
           flex: 1
         }}>
-          <img style={{
+          <img alt="cat" style={{
             backgroundSize: 'cover',
             width: '100%'
           }} src={cat} />
