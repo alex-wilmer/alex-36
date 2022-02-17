@@ -15,7 +15,7 @@ export const theme = {
 }
 
 function Line() {
-  return <img alt="underline" src={underline} />
+  return <img style={{ width: '300px' }} alt="underline" src={underline} />
 }
 
 function App() {
