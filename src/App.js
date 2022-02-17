@@ -25,6 +25,7 @@ function App() {
         flexDirection: ['column-reverse', 'row']
       }}>
         <Flex sx={{
+          backgroundColor: 'white',
           mt: [0, '-5rem'],
           p: '3rem',
           flex: 1,
